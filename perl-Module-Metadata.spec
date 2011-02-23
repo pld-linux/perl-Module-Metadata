@@ -5,7 +5,8 @@
 %define		pdir	Module
 %define		pnam	Metadata
 %include	/usr/lib/rpm/macros.perl
-Summary:	Module::Metadata - Gather package and POD information from perl module files
+Summary:	Module::Metadata - gather package and POD information from Perl module files
+Summary(pl.UTF-8):	Module::Metadata - zbieranie informacji o pakietach i POD z plików modułów Perla
 Name:		perl-Module-Metadata
 Version:	1.000004
 Release:	1
@@ -24,7 +25,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Gather package and POD information from perl module files.
+Gather package and POD information from Perl module files.
+
+%description -l pl.UTF-8
+Module::Metadata - zbieranie informacji o pakietach i POD z plików
+modułów Perla.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -48,5 +53,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
-%{perl_vendorlib}/Module/*.pm
+%{perl_vendorlib}/Module/Metadata.pm
 %{_mandir}/man3/Module::Metadata.3pm*
