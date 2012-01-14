@@ -8,13 +8,13 @@
 Summary:	Module::Metadata - gather package and POD information from Perl module files
 Summary(pl.UTF-8):	Module::Metadata - zbieranie informacji o pakietach i POD z plików modułów Perla
 Name:		perl-Module-Metadata
-Version:	1.000004
+Version:	1.000007
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/D/DA/DAGOLDEN/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	3011f1b7f2f7b5462760df89aefc7035
+# Source0-md5:	411d62f242c09ecee6ccaf558f516cc8
 URL:		http://search.cpan.org/dist/Module-Metadata/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
