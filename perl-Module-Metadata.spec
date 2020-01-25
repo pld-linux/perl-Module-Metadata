@@ -4,7 +4,6 @@
 #
 %define		pdir	Module
 %define		pnam	Metadata
-%include	/usr/lib/rpm/macros.perl
 Summary:	Module::Metadata - gather package and POD information from Perl module files
 Summary(pl.UTF-8):	Module::Metadata - zbieranie informacji o pakietach i POD z plików modułów Perla
 Name:		perl-Module-Metadata
